@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "database", "telemetry.db")
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "Critical Power Fleet HUD"
 
 
